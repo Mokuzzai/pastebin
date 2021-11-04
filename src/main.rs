@@ -12,7 +12,7 @@ use std::io;
 
 #[get("/")]
 fn index() -> Html<io::Result<File>> {
-	Html(File::open("index.html"))
+	Html(File::open("assets/index.html"))
 }
 
 #[get("/<id>")]
