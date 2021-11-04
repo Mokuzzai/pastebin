@@ -1,7 +1,7 @@
 -- Your SQL goes here
 CREATE TABLE Pastes (
 	ident
-		UNIQUE
+		INT UNIQUE
 		PRIMARY KEY
 		NOT NULL,
 	author
