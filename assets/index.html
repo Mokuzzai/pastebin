@@ -5,11 +5,18 @@
 	</head>
 	<body>
 		<h2>New Paste</h2>
-		<form action="/" method="POST">
+
+
+		<form
+			action="\upload"
+			method="POST"
+			id="new_paste"
+		>
 			<textarea
+				name="paste"
+				form="new_paste"
 				rows="32" cols="128"
 				placeholder="Paste here..."
-				spellchech="true"
 			></textarea><br>
 
 			<input
